@@ -35,4 +35,27 @@ I did not play with my dog yeasterday. – Я не грав зі своєю со
 
 I didn’t smoke five years ago. – Я не курив п’ять років тому назад.</string>
     <string name="past_q">Для створення питального речення у Past Simple необхідно користуватися наступною формулою:</string>
+    <string name="past_qdid"><u>Did + іменник + дієслово</u></string>
+    <string name="past_qdidq">Приклад питального речення:
+    <b>Did</b> you <b>play</b> football yesterday? – Ти грав у футбол вчора?
+    <b>Did</b> you <b>go</b> to the cinema five days ago? – Ти ходив у кінотеатр п’ять днів тому?</string>
+    <string name="word_pointers_past_simple">Слова-покажчики Past Simple</string>
+    <string name="word_pointers_past_simple_next">З Past Simple часто вживаються допоміжні слова,
+        що дозволяють легше відрізняти простий неозначений час. Є такі слова-покажчики:</string>
+<string name="word">Слово</string>
+    <string name="translate">Переклад</string>
+    <string name="yesterdayen">yesterday</string>
+    <string name="yesterdayua">Вчора</string>
+    <string name="the_day_before_yesterdayen">the day before yesterday</string>
+    <string name="the_day_before_yesterdayua">позавчора</string>
+    <string name="day_agoen">(three days, five days, five years…) ago</string>
+    <string name="day_agoua">три дні тому, п’ять днів тому, п’ять років тому і т.д.</string>
+    <string name="last_weekenden">last (week, month, year, weekend…)</string>
+    <string name="last_weekendua">на минулому тижні, у минулому місяці, у минулому році і т.д.</string>
+    <string name="in_1999en">in (1999, 2010, June, April…)</string>
+    <string name="in_1999ua">у 1999, у 2010, у червні, у квітні і т.д.</string>
+    <string name="when_en">when…</string>
+    <string name="when_ua">коли….</string>
+
+    <string name="btnnext">Перейти до практики</string>
 </resources>
