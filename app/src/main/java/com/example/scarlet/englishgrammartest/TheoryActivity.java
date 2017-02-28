@@ -1,5 +1,6 @@
 package com.example.scarlet.englishgrammartest;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -7,10 +8,14 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.scarlet.englishgrammartest.PastTime.PastContinuous;
+import com.example.scarlet.englishgrammartest.PastTime.PastPerfect;
+import com.example.scarlet.englishgrammartest.PastTime.PastSimple;
+
 public class TheoryActivity extends AppCompatActivity implements View.OnClickListener {
     LinearLayout llPastGroup, llPresentGroup, llFutureGroup;
     TextView tvPast, tvPresent, tvFuture;
-    TextView tvPastSimple;
+    TextView tvPastSimple, tvPastContinuous, tvPastPerfect;
     int cntForLlPastGroup = 0, cntForLlPresentGroup = 0, cntForLlFutureGroup = 0;
 
     @Override
@@ -23,6 +28,8 @@ public class TheoryActivity extends AppCompatActivity implements View.OnClickLis
         tvFuture = (TextView) findViewById(R.id.tvFuture);
 
         tvPastSimple=(TextView) findViewById(R.id.pastSimple);
+        tvPastContinuous=(TextView) findViewById(R.id.pastContinuous);
+        tvPastPerfect=(TextView) findViewById(R.id.pastPerfect);
 
         llPastGroup = (LinearLayout) findViewById(R.id.llPastGroup);
         llPresentGroup = (LinearLayout) findViewById(R.id.llPresentGroup);
@@ -33,6 +40,8 @@ public class TheoryActivity extends AppCompatActivity implements View.OnClickLis
         tvFuture.setOnClickListener(this);
 
         tvPastSimple.setOnClickListener(this);
+        tvPastContinuous.setOnClickListener(this);
+        tvPastPerfect.setOnClickListener(this);
     }
 
     @Override
@@ -75,8 +84,18 @@ public class TheoryActivity extends AppCompatActivity implements View.OnClickLis
                 }
                 break;
             case R.id.pastSimple:
-                setContentView(R.layout.past_simple);
+                Intent intentPastSimple = new Intent(this, PastSimple.class);
+                startActivity(intentPastSimple);
                 break;
+            case R.id.pastContinuous:
+                Intent intentPastContinuous = new Intent(this, PastContinuous.class);
+                startActivity(intentPastContinuous);
+                break;
+            case R.id.pastPerfect:
+                Intent intentPastPerfect = new Intent(this, PastPerfect.class);
+                startActivity(intentPastPerfect);
+                break;
+
             default:
                 break;
         }
