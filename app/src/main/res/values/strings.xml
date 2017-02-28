@@ -12,4 +12,27 @@
     <string name="future_simple">Future Simple</string>
     <string name="future_continuous">Future Continuous</string>
     <string name="future_perfect">Future Perfect</string>
+    <string name="past_indefinite">Past Simple (Past Indefinite) –
+        простий неозначений час в англійській мові,
+        що найчастіше використовується для позначення дії \n
+        котра відбувалася в минулому і вже є завершеною.</string>
+    <string name="past_zero">У стверджувальному реченні Past Simple
+        утворюється за допомогою додавання до дієслів закінчення -ed
+        або ж використання їхньої другої форми , якщо дієслово
+        є неправильним. Для знаходження другої форми дієслова
+        користуйтеся таблицею неправильних дієслів.\n\n
+    Стверджувальне (розповідне) речення з використанням Past Simple:</string>
+    <string name="past_ed">I play<b>ed</b> football yesterday. – Я грав у футбол вчора (дія завершена ще вчора).\n
+
+I <b>thought</b> about that. – Я думав про це (дія завершена).\n</string>
+    <string name="past_next">Заперечне речення утворюється за допомогою дієслова did
+        (2 форма дієслова do) та додавання після нього частки not.
+        При цьому did та not можна злити в одне слово didn’t.Формула:</string>
+    <string name="past_did"><u>Іменник + did + not + дієслово</u></string>
+    <string name="past_did_next">Приклад заперечного речення:
+
+I did not play with my dog yeasterday. – Я не грав зі своєю собакою учора.
+
+I didn’t smoke five years ago. – Я не курив п’ять років тому назад.</string>
+    <string name="past_q">Для створення питального речення у Past Simple необхідно користуватися наступною формулою:</string>
 </resources>
