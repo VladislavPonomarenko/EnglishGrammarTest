@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EnglishGrammarTest</string>
+    <string name="past">Past</string>
+    <string name="past_simple">Past Simple</string>
+    <string name="past_continuous">Past Continuous</string>
+    <string name="past_perfect">Past Perfect</string>
+    <string name="present">Present</string>
+    <string name="present_simple">Present Simple</string>
+    <string name="present_continuous">Present Continuous</string>
+    <string name="present_perfect">Present Perfect</string>
+    <string name="future">Future</string>
+    <string name="future_simple">Future Simple</string>
+    <string name="future_continuous">Future Continuous</string>
+    <string name="future_perfect">Future Perfect</string>
+</resources>
