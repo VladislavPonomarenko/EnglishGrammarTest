@@ -19,16 +19,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
+            android:id="@+id/pastSimple"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textSize="@dimen/subparagraph"
             android:text="@string/past_simple"/>
         <TextView
+            android:id="@+id/pastContinuous"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textSize="@dimen/subparagraph"
             android:text="@string/past_continuous"/>
         <TextView
+            android:id="@+id/pastPerfect"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textSize="@dimen/subparagraph"

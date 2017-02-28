@@ -10,6 +10,7 @@ import android.widget.TextView;
 public class TheoryActivity extends AppCompatActivity implements View.OnClickListener {
     LinearLayout llPastGroup, llPresentGroup, llFutureGroup;
     TextView tvPast, tvPresent, tvFuture;
+    TextView tvPastSimple;
     int cntForLlPastGroup = 0, cntForLlPresentGroup = 0, cntForLlFutureGroup = 0;
 
     @Override
@@ -20,12 +21,18 @@ public class TheoryActivity extends AppCompatActivity implements View.OnClickLis
         tvPast = (TextView) findViewById(R.id.tvPast);
         tvPresent = (TextView) findViewById(R.id.tvPresent);
         tvFuture = (TextView) findViewById(R.id.tvFuture);
+
+        tvPastSimple=(TextView) findViewById(R.id.pastSimple);
+
         llPastGroup = (LinearLayout) findViewById(R.id.llPastGroup);
         llPresentGroup = (LinearLayout) findViewById(R.id.llPresentGroup);
         llFutureGroup = (LinearLayout) findViewById(R.id.llFutureGroup);
+
         tvPast.setOnClickListener(this);
         tvPresent.setOnClickListener(this);
         tvFuture.setOnClickListener(this);
+
+        tvPastSimple.setOnClickListener(this);
     }
 
     @Override
@@ -66,6 +73,9 @@ public class TheoryActivity extends AppCompatActivity implements View.OnClickLis
                     cntForLlFutureGroup--;
                     break;
                 }
+                break;
+            case R.id.pastSimple:
+                setContentView(R.layout.past_simple);
                 break;
             default:
                 break;
