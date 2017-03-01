@@ -42,7 +42,7 @@ I didn’t smoke five years ago. – Я не курив п’ять років �
     <string name="word_pointers_past_simple">Слова-покажчики Past Simple</string>
     <string name="word_pointers_past_simple_next">З Past Simple часто вживаються допоміжні слова,
         що дозволяють легше відрізняти простий неозначений час. Є такі слова-покажчики:</string>
-<string name="word">Слово</string>
+    <string name="word">Слово</string>
     <string name="translate">Переклад</string>
     <string name="yesterdayen">yesterday</string>
     <string name="yesterdayua">Вчора</string>
@@ -56,6 +56,7 @@ I didn’t smoke five years ago. – Я не курив п’ять років �
     <string name="in_1999ua">у 1999, у 2010, у червні, у квітні і т.д.</string>
     <string name="when_en">when…</string>
     <string name="when_ua">коли….</string>
+    <string name="go_to_the_study">Перейти до вивчення</string>
 
     <string name="btnnext">Перейти до практики</string>
 </resources>

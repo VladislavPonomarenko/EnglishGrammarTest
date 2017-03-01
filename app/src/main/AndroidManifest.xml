@@ -23,7 +23,8 @@
         <activity android:name=".PracticeActivity" />
         <activity android:name=".PastTime.PastSimple" />
         <activity android:name=".PastTime.PastContinuous" />
-        <activity android:name=".PastTime.PastPerfect"></activity>
+        <activity android:name=".PastTime.PastPerfect" />
+        <activity android:name=".PastTime.PastSimpleTest"></activity>
     </application>
 
 </manifest>

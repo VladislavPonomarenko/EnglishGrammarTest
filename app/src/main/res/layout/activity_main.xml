@@ -4,23 +4,19 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout
-    android:paddingTop="100dp"
-    android:paddingLeft="120dp"
+    android:paddingTop="150dp"
+    android:paddingLeft="40dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:gravity="center">
     <Button
         android:id="@+id/btnTheory"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        android:text="Теорія"/>
-    <Button
-        android:id="@+id/btnPractice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Практика"/>
+        android:layout_margin="60dp"
+        android:text="@string/go_to_the_study"/>
+
 </LinearLayout>
 
 </LinearLayout>
