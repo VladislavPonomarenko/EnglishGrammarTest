@@ -1,6 +1,7 @@
 package com.example.scarlet.englishgrammartest.PastTime;
 import com.example.scarlet.englishgrammartest.R;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,7 +13,7 @@ public class PastSimpleTest extends AppCompatActivity {
 
     EditText pastSimpleWent, pastSimpleWas, pastSimpleWasOne, pastSimpleGot, pastSimpleMet;
     Button btnPastSimpleResult;
-    TextView result;
+    TextView result, resultPrice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,7 @@ public class PastSimpleTest extends AppCompatActivity {
         btnPastSimpleResult = (Button) findViewById(R.id.btnPastSimpleResult);
 
         result = (TextView) findViewById(R.id.result);
+        resultPrice = (TextView) findViewById(R.id.resultPrice);
 
         btnPastSimpleResult.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +53,23 @@ public class PastSimpleTest extends AppCompatActivity {
                 }
 
                 result.setText("Hабрано "+cntResult+" з 5");
+
+                if(cntResult==5){
+                    resultPrice.setText("Молодець");
+                    resultPrice.setTextColor(Color.GREEN);
+                    resultPrice.setTextSize(25);
+                    resultPrice.setPadding(10,10,10,10);
+                } else if(cntResult==4 || cntResult==3){
+                    resultPrice.setText("Непогано");
+                    resultPrice.setTextColor(Color.YELLOW);
+                    resultPrice.setTextSize(25);
+                    resultPrice.setPadding(10,10,10,10);
+                }else {
+                    resultPrice.setText("Погано");
+                    resultPrice.setTextColor(Color.RED);
+                    resultPrice.setTextSize(25);
+                    resultPrice.setPadding(10,10,10,10);
+                }
             }
         });
 
