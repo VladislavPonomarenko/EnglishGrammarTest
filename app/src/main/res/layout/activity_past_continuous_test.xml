@@ -77,7 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text=" in the garden when it suddenly began to rain."/>
+            android:text=" in the garden when it suddenly \n began to rain.\n"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -98,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="the playing piano when my girlfriend came home."/>
+            android:text="the playing piano when my \n girlfriend came home.\n"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
